@@ -8,7 +8,7 @@ Uses jQuery to remove the popup if JS is enabled. If JS is disabled it will show
 
 Uses a CDN, this is very fast and light weight.
 
-Live Demo: http://codepen.io/Verpz/pen/WweRWJ
+Live Demo: http://codepen.io/Verpz/pen/WweRWJ (It will always be visable for demonstration purposes).
 
 * Requires jQuery
 
