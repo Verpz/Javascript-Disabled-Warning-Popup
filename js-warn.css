@@ -1,17 +1,34 @@
 /* Made by Verpz https://github.com/Verpz/ */
 .js-warn {
-  background-color: tomato;
+  background-color: #FF5666;
+  display: block;
   width: 30%;
-  height: 10%;
   margin: 0 auto;
   margin-top: 50px;
-  border-radius: 50px;
+  border-radius: 10px;
   box-shadow: 0px 10px 70px;
   text-align: center;
+  position: relative;
+  font-family: sans-serif, serif;
+  font-weight: 300;
 }
 
 .js-warn h1 {
-    font-family: sans-serif, serif;
-    font-weight: 300;
-    padding: 10px 10px;
+  font-family: sans-serif, serif;
+  font-weight: 300;
+  padding: 10px 10px 0 10px;
+}
+
+.js-warn p {
+  padding: 0 10px 10px 10px;
+}
+
+.js-warn a {
+  color: #355980;
+  text-decoration: none;
+  transition: all 0.2s linear;
+}
+
+.js-warn a:hover {
+  color: #000;
 }
