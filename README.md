@@ -19,4 +19,4 @@ To install simply add the following code to the header:
 ```
 I plan to add a close button.
 
-!(https://i.imgur.com/2FXbSfL.png)
+![Demo](https://i.imgur.com/2FXbSfL.png)
