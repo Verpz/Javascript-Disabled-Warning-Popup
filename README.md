@@ -5,7 +5,7 @@ Uses jQuery to remove the popup if JS is enabled. If JS is disabled it will not 
 
 * Requires jQuery
 
-To install simply add the following code to <head>:
+To install simply add the following code to the header:
 ```
 <div>
   <link rel="stylesheet" type="text/css" href="https://cdn.rawgit.com/Verpz/Javascript-Disabled-Warning/master/js-warn.css">
@@ -14,3 +14,4 @@ To install simply add the following code to <head>:
   <script>$("div.js-warn").hide()</script>
 </div>
 ```
+I plan to add a close button.
