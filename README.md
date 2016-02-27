@@ -1,4 +1,4 @@
-# Javascript-Disabled-Warning
+# Javascript-Disabled-Warning-Popup
 
 http://verpz.github.io/Javascript-Disabled-Warning
 
