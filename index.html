@@ -22,8 +22,6 @@
       <h1>
 <a id="javascript-disabled-warning-popup" class="anchor" href="#javascript-disabled-warning-popup" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Javascript-Disabled-Warning-Popup</h1>
 
-<p><a href="http://verpz.github.io/Javascript-Disabled-Warning">http://verpz.github.io/Javascript-Disabled-Warning</a></p>
-
 <p>Will activate a light-weight popup when a user has disabled Javascript notifying them that some site features will be broken.</p>
 
 <p>Uses Javascript to remove the popup if JS is enabled. If JS is disabled it will show the popup.</p>
@@ -41,17 +39,17 @@
 <p>To install simply add the following code to the header:</p>
 
 <pre><code>&lt;div&gt;
-  &lt;link rel="stylesheet" type="text/css" href="https://cdn.rawgit.com/Verpz/Javascript-Disabled-Warning/53f927723dfb6ec0c9365e299dc2ed418f5c5158/js-warn.css"&gt;
-  &lt;input type="checkbox" id="hide" /&gt;
+  &lt;link rel="stylesheet" type="text/css" href="https://cdn.rawgit.com/Verpz/Javascript-Disabled-Warning-Popup/b10b9ebe28a92ffe746eb7e6fb6e0d3497c3afdd/js-warn.css"&gt;
+  &lt;input type="checkbox" id="js-hide" /&gt;
   &lt;div class="js-warn" id="js-warn-exit"&gt;&lt;h1&gt;Javascript Is Disabled&lt;/h1&gt;&lt;p&gt;Javascript seems to be disabled. This will break some site features.&lt;/p&gt;
-  &lt;p&gt;To enable Javascript click &lt;a href="http://www.enable-javascript.com/" target="_blank"&gt;here&lt;/a&gt;&lt;/p&gt;&lt;label for="hide"&gt;Close&lt;/label&gt;&lt;/div&gt;
+  &lt;p&gt;To enable Javascript click &lt;a href="http://www.enable-javascript.com/" target="_blank"&gt;here&lt;/a&gt;&lt;/p&gt;&lt;label for="js-hide"&gt;Close&lt;/label&gt;&lt;/div&gt;
   &lt;script&gt;var jswarn = document.getElementById("js-warn-exit"); jswarn.parentNode.removeChild(jswarn);&lt;/script&gt;
 &lt;/div&gt;
 </code></pre>
 
 <p>Or The Minified Version (CDN Is Minified As Well)</p>
 
-<pre><code>&lt;div&gt; &lt;link rel="stylesheet" type="text/css" href="https://cdn.rawgit.com/Verpz/Javascript-Disabled-Warning/53f927723dfb6ec0c9365e299dc2ed418f5c5158/js-warn-min.css"&gt; &lt;input type="checkbox" id="hide"/&gt; &lt;div class="js-warn" id="js-warn-exit"&gt;&lt;h1&gt;Javascript Is Disabled&lt;/h1&gt;&lt;p&gt;Javascript seems to be disabled. This will break some site features.&lt;/p&gt;&lt;p&gt;To enable Javascript click &lt;a href="http://www.enable-javascript.com/" target="_blank"&gt;here&lt;/a&gt;&lt;/p&gt;&lt;label for="hide"&gt;Close&lt;/label&gt;&lt;/div&gt;&lt;script&gt;var jswarn=document.getElementById("js-warn-exit"); jswarn.parentNode.removeChild(jswarn);&lt;/script&gt; &lt;/div&gt;
+<pre><code>&lt;div&gt; &lt;link rel="stylesheet" type="text/css" href="https://cdn.rawgit.com/Verpz/Javascript-Disabled-Warning-Popup/b10b9ebe28a92ffe746eb7e6fb6e0d3497c3afdd/js-warn-min.css"&gt; &lt;input type="checkbox" id="js-hide"/&gt; &lt;div class="js-warn" id="js-warn-exit"&gt;&lt;h1&gt;Javascript Is Disabled&lt;/h1&gt;&lt;p&gt;Javascript seems to be disabled. This will break some site features.&lt;/p&gt;&lt;p&gt;To enable Javascript click &lt;a href="http://www.enable-javascript.com/" target="_blank"&gt;here&lt;/a&gt;&lt;/p&gt;&lt;label for="js-hide"&gt;Close&lt;/label&gt;&lt;/div&gt;&lt;script&gt;var jswarn=document.getElementById("js-warn-exit"); jswarn.parentNode.removeChild(jswarn);&lt;/script&gt; &lt;/div&gt;
 </code></pre>
 
 <p><img src="http://i.imgur.com/Yq8jk7M.png" alt="Demo"></p>
