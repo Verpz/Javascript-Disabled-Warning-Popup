@@ -20,7 +20,7 @@ To install simply add the following code to the header:
   <link rel="stylesheet" type="text/css" href="https://cdn.rawgit.com/Verpz/Javascript-Disabled-Warning/b2b2652971cd25a12df2a7f18d23209ff7cc17dd/js-warn.css">
   <input type="checkbox" id="hide" />
   <div class="js-warn" id="js-warn-exit"><h1>Javascript Is Disabled</h1><p>Javascript seems to be disabled. This will break some site features.</p>
-  <p>To enable Javascript click <a href="http://www.enable-javascript.com/" target="_blank">here</a></p><div>
+  <p>To enable Javascript click <a href="http://www.enable-javascript.com/" target="_blank">here</a></p></div>
   <label for="hide">Close</label>
   <script>var jswarn = document.getElementById("js-warn-exit"); jswarn.parentNode.removeChild(jswarn);</script>
 </div>
@@ -28,7 +28,7 @@ To install simply add the following code to the header:
 Or The Minified Version (CDN Is Minified As Well)
 
 ```
-<div> <link rel="stylesheet" type="text/css" href="https://cdn.rawgit.com/Verpz/Javascript-Disabled-Warning/b2b2652971cd25a12df2a7f18d23209ff7cc17dd/js-warn.css"> <input type="checkbox" id="hide"/> <div class="js-warn" id="js-warn-exit"><h1>Javascript Is Disabled</h1><p>Javascript seems to be disabled. This will break some site features.</p><p>To enable Javascript click <a href="http://www.enable-javascript.com/" target="_blank">here</a></p><div> <label for="hide">Close</label> <script>var jswarn=document.getElementById("js-warn-exit"); jswarn.parentNode.removeChild(jswarn);</script> </div>
+<div> <link rel="stylesheet" type="text/css" href="https://cdn.rawgit.com/Verpz/Javascript-Disabled-Warning/53f927723dfb6ec0c9365e299dc2ed418f5c5158/js-warn-min.css"> <input type="checkbox" id="hide"/> <div class="js-warn" id="js-warn-exit"><h1>Javascript Is Disabled</h1><p>Javascript seems to be disabled. This will break some site features.</p><p>To enable Javascript click <a href="http://www.enable-javascript.com/" target="_blank">here</a></p><label for="hide">Close</label></div><script>var jswarn=document.getElementById("js-warn-exit"); jswarn.parentNode.removeChild(jswarn);</script> </div>
 ```
 
 ![Demo](http://i.imgur.com/Yq8jk7M.png)
