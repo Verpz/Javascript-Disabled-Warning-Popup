@@ -4,12 +4,15 @@
   color: #555;
   display: block;
   width: 30%;
-  margin: 0 auto;
+  right: 0;
+  left: 0;
+  margin-right: auto;
+  margin-left: auto;
   margin-top: 50px;
   border-radius: 10px;
   box-shadow: 0px 10px 70px;
   text-align: center;
-  position: relative;
+  position: fixed;
   font-family: sans-serif, serif;
   font-weight: 300;
   z-index: 9999;
