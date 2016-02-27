@@ -2,7 +2,7 @@
 <html lang="en-us">
   <head>
     <meta charset="UTF-8">
-    <title>Javascript Disabled Warning by Verpz</title>
+    <title>Javascript Disabled Warning Popup by Verpz</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" href="stylesheets/normalize.css" media="screen">
     <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
@@ -11,16 +11,18 @@
   </head>
   <body>
     <section class="page-header">
-      <h1 class="project-name">Javascript Disabled Warning</h1>
+      <h1 class="project-name">Javascript Disabled Warning Popup</h1>
       <h2 class="project-tagline">Will activate a popup when a user has disabled Javascript notifying them that some site features will be broken.</h2>
-      <a href="https://github.com/Verpz/Javascript-Disabled-Warning" class="btn">View on GitHub</a>
-      <a href="https://github.com/Verpz/Javascript-Disabled-Warning/zipball/master" class="btn">Download .zip</a>
-      <a href="https://github.com/Verpz/Javascript-Disabled-Warning/tarball/master" class="btn">Download .tar.gz</a>
+      <a href="https://github.com/Verpz/Javascript-Disabled-Warning-Popup" class="btn">View on GitHub</a>
+      <a href="https://github.com/Verpz/Javascript-Disabled-Warning-Popup/zipball/master" class="btn">Download .zip</a>
+      <a href="https://github.com/Verpz/Javascript-Disabled-Warning-Popup/tarball/master" class="btn">Download .tar.gz</a>
     </section>
 
     <section class="main-content">
       <h1>
-<a id="javascript-disabled-warning" class="anchor" href="#javascript-disabled-warning" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Javascript-Disabled-Warning</h1>
+<a id="javascript-disabled-warning-popup" class="anchor" href="#javascript-disabled-warning-popup" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Javascript-Disabled-Warning-Popup</h1>
+
+<p><a href="http://verpz.github.io/Javascript-Disabled-Warning">http://verpz.github.io/Javascript-Disabled-Warning</a></p>
 
 <p>Will activate a light-weight popup when a user has disabled Javascript notifying them that some site features will be broken.</p>
 
@@ -34,23 +36,22 @@
 <li>No jQuery Or 3rd Party Library Required.</li>
 </ul>
 
-<p>Note: If you would like to customise the CSS, download js-warn.css.</p>
+<p>Note: If you would like to customize the CSS, download js-warn.css.</p>
 
 <p>To install simply add the following code to the header:</p>
 
 <pre><code>&lt;div&gt;
-  &lt;link rel="stylesheet" type="text/css" href="https://cdn.rawgit.com/Verpz/Javascript-Disabled-Warning/b2b2652971cd25a12df2a7f18d23209ff7cc17dd/js-warn.css"&gt;
+  &lt;link rel="stylesheet" type="text/css" href="https://cdn.rawgit.com/Verpz/Javascript-Disabled-Warning/53f927723dfb6ec0c9365e299dc2ed418f5c5158/js-warn.css"&gt;
   &lt;input type="checkbox" id="hide" /&gt;
   &lt;div class="js-warn" id="js-warn-exit"&gt;&lt;h1&gt;Javascript Is Disabled&lt;/h1&gt;&lt;p&gt;Javascript seems to be disabled. This will break some site features.&lt;/p&gt;
-  &lt;p&gt;To enable Javascript click &lt;a href="http://www.enable-javascript.com/" target="_blank"&gt;here&lt;/a&gt;&lt;/p&gt;&lt;div&gt;
-  &lt;label for="hide"&gt;Close&lt;/label&gt;
+  &lt;p&gt;To enable Javascript click &lt;a href="http://www.enable-javascript.com/" target="_blank"&gt;here&lt;/a&gt;&lt;/p&gt;&lt;label for="hide"&gt;Close&lt;/label&gt;&lt;/div&gt;
   &lt;script&gt;var jswarn = document.getElementById("js-warn-exit"); jswarn.parentNode.removeChild(jswarn);&lt;/script&gt;
 &lt;/div&gt;
 </code></pre>
 
 <p>Or The Minified Version (CDN Is Minified As Well)</p>
 
-<pre><code>&lt;div&gt; &lt;link rel="stylesheet" type="text/css" href="https://cdn.rawgit.com/Verpz/Javascript-Disabled-Warning/b2b2652971cd25a12df2a7f18d23209ff7cc17dd/js-warn.css"&gt; &lt;input type="checkbox" id="hide"/&gt; &lt;div class="js-warn" id="js-warn-exit"&gt;&lt;h1&gt;Javascript Is Disabled&lt;/h1&gt;&lt;p&gt;Javascript seems to be disabled. This will break some site features.&lt;/p&gt;&lt;p&gt;To enable Javascript click &lt;a href="http://www.enable-javascript.com/" target="_blank"&gt;here&lt;/a&gt;&lt;/p&gt;&lt;div&gt; &lt;label for="hide"&gt;Close&lt;/label&gt; &lt;script&gt;var jswarn=document.getElementById("js-warn-exit"); jswarn.parentNode.removeChild(jswarn);&lt;/script&gt; &lt;/div&gt;
+<pre><code>&lt;div&gt; &lt;link rel="stylesheet" type="text/css" href="https://cdn.rawgit.com/Verpz/Javascript-Disabled-Warning/53f927723dfb6ec0c9365e299dc2ed418f5c5158/js-warn-min.css"&gt; &lt;input type="checkbox" id="hide"/&gt; &lt;div class="js-warn" id="js-warn-exit"&gt;&lt;h1&gt;Javascript Is Disabled&lt;/h1&gt;&lt;p&gt;Javascript seems to be disabled. This will break some site features.&lt;/p&gt;&lt;p&gt;To enable Javascript click &lt;a href="http://www.enable-javascript.com/" target="_blank"&gt;here&lt;/a&gt;&lt;/p&gt;&lt;label for="hide"&gt;Close&lt;/label&gt;&lt;/div&gt;&lt;script&gt;var jswarn=document.getElementById("js-warn-exit"); jswarn.parentNode.removeChild(jswarn);&lt;/script&gt; &lt;/div&gt;
 </code></pre>
 
 <p><img src="http://i.imgur.com/Yq8jk7M.png" alt="Demo"></p>
@@ -58,7 +59,7 @@
 <p>Apache License 2.0</p>
 
       <footer class="site-footer">
-        <span class="site-footer-owner"><a href="https://github.com/Verpz/Javascript-Disabled-Warning">Javascript Disabled Warning</a> is maintained by <a href="https://github.com/Verpz">Verpz</a>.</span>
+        <span class="site-footer-owner"><a href="https://github.com/Verpz/Javascript-Disabled-Warning-Popup">Javascript Disabled Warning Popup</a> is maintained by <a href="https://github.com/Verpz">Verpz</a>.</span>
 
         <span class="site-footer-credits">This page was generated by <a href="https://pages.github.com">GitHub Pages</a> using the <a href="https://github.com/jasonlong/cayman-theme">Cayman theme</a> by <a href="https://twitter.com/jasonlong">Jason Long</a>.</span>
       </footer>
