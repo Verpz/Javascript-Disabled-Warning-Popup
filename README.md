@@ -20,7 +20,7 @@ To install simply add the following code to the header:
   <link rel="stylesheet" type="text/css" href="https://cdn.rawgit.com/Verpz/Javascript-Disabled-Warning/e5dd42110117aeed7c78434af0fb96524ef4c102/js-warn.css">
   <input type="checkbox" id="hide" />
   <div class="js-warn" id="js-warn-exit"><h1>Javascript Is Disabled</h1><p>Javascript seems to be disabled. This will break some site features.</p>
-  <p>To enable Javascript click <a href="http://www.enable-javascript.com/" target="_blank">here</a></p><div>
+  <p>To enable Javascript click <a href="http://www.activatejavascript.org/" target="_blank">here</a></p><div>
   <label for="hide">Close</label>
   <script>$("div.js-warn").hide()</script>
 </div>
@@ -28,7 +28,7 @@ To install simply add the following code to the header:
 Or The Minified Version (CDN Is Minified As Well)
 
 ```
-<div> <link rel="stylesheet" type="text/css" href="https://cdn.rawgit.com/Verpz/Javascript-Disabled-Warning/e5dd42110117aeed7c78434af0fb96524ef4c102/js-warn-min.css"> <input type="checkbox" id="hide"/> <div class="js-warn" id="js-warn-exit"><h1>Javascript Is Disabled</h1><p>Javascript seems to be disabled. This will break some site features.</p><p>To enable Javascript click <a href="http://www.enable-javascript.com/" target="_blank">here</a></p><div> <label for="hide">Close</label> <script>$("div.js-warn").hide()</script> </div>
+<div> <link rel="stylesheet" type="text/css" href="https://cdn.rawgit.com/Verpz/Javascript-Disabled-Warning/e5dd42110117aeed7c78434af0fb96524ef4c102/js-warn-min.css"> <input type="checkbox" id="hide"/> <div class="js-warn" id="js-warn-exit"><h1>Javascript Is Disabled</h1><p>Javascript seems to be disabled. This will break some site features.</p><p>To enable Javascript click <a href="http://www.activatejavascript.org/" target="_blank">here</a></p><div> <label for="hide">Close</label> <script>$("div.js-warn").hide()</script> </div>
 ```
 
 ![Demo](http://i.imgur.com/Yq8jk7M.png)
