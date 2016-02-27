@@ -12,6 +12,7 @@
   position: relative;
   font-family: sans-serif, serif;
   font-weight: 300;
+  z-index: 9999;
 }
 .js-warn h1 {
   font-family: sans-serif, serif;
