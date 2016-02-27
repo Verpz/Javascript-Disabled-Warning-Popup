@@ -33,10 +33,10 @@
 .js-warn a:hover {
   color: #000;
 }
-#hide:checked ~ #js-warn-exit {
+#js-hide:checked ~ #js-warn-exit {
   display: none;
 }
-#hide {
+#js-hide {
   position: fixed;
   left: 100%;
 }
