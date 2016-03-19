@@ -32,4 +32,3 @@ Or The Minified Version (CDN Is Minified As Well)
 
 ![Demo](http://i.imgur.com/Yq8jk7M.png)
 
-Apache License 2.0
