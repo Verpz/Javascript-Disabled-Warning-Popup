@@ -14,7 +14,7 @@ Live Demo: http://codepen.io/Verpz/pen/WweRWJ (It will always be visible for dem
 
 Note: If you would like to customize the CSS, download js-warn.css.
 
-To install simply add the following code to the header:
+To install simply add the following code to the top of your <body> tag:
 ```
 <div>
   <link rel="stylesheet" type="text/css" href="https://cdn.rawgit.com/Verpz/Javascript-Disabled-Warning-Popup/b10b9ebe28a92ffe746eb7e6fb6e0d3497c3afdd/js-warn.css">
