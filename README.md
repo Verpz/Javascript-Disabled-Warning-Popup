@@ -1,6 +1,6 @@
 # Javascript-Disabled-Warning-Popup
 
-[Website] (http://verpz.github.io/Javascript-Disabled-Warning-Popup)
+[Website](http://verpz.github.io/Javascript-Disabled-Warning-Popup)
 
 Will activate a light-weight popup when a user has disabled Javascript notifying them that some site features will be broken.
 
